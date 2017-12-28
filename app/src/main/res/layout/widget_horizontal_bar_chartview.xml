@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dip"
+        android:id="@+id/mChartTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:layout_marginTop="-5dip"
+        android:id="@+id/mBarChart"
+        android:layout_width="match_parent"
+        android:layout_height="220dip" />
+
+    <TextView
+        android:layout_marginTop="-5dip"
+        android:id="@+id/mBottomTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+</LinearLayout>
